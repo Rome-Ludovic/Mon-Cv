@@ -97,7 +97,7 @@
     </aside>
     <div class="nav">
     <nav>
-      <button><a href="index.php?page=education">education</a></button>
+      <button><a href="index.php?page=education">Éducation</a></button>
       <button><a href="index.php?page=competences">Compétences</a></button>
       <button><a href="index.php?page=projets-personnels">Projets Personnels</a></button>
     </nav>
@@ -115,37 +115,25 @@
             <i class="fas fa-laptop-code"></i>
           </div>
 
-          <span>Programming Skills</span>
+          <span>Compétences informatiques</span>
         </div>
 
         <div class="detail-content">
 
           <ul class="pg-list">
 
+
             <li>
-              <span>HTML5</span>
+              <span>Language Web<br>(HTML/CSS/PHP)</br></span>
 
               <div class="sb-skeleton">
                 <div
                   class="skillbar"
-                  style="--pgbar-length: 30%"
+                  style="--pgbar-length: 45%"
                 ></div>
               </div>
 
-              <span class="skill-percent">30%</span>
-            </li>
-
-            <li>
-              <span>Csharp</span>
-
-              <div class="sb-skeleton">
-                <div
-                  class="skillbar"
-                  style="--pgbar-length: 50%"
-                ></div>
-              </div>
-
-              <span class="skill-percent">50%</span>
+              <span class="skill-percent">45%</span>
             </li>
 
             <li>
@@ -159,6 +147,110 @@
               </div>
 
               <span class="skill-percent">45%</span>
+            </li>
+
+            <li>
+              <span>C#</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 50%"
+                ></div>
+              </div>
+
+              <span class="skill-percent">50%</span>
+            </li>
+            
+            <li>
+              <span>HaxeFlixel</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 75%"
+                ></div>
+              </div>
+
+              <span class="skill-percent">75%</span>
+            </li>
+            
+
+          </ul>
+
+        </div>
+      </section>';
+    }
+
+
+    else if ($_GET["page"] == "projets-personnels") 
+    {echo '
+      <!-- ==================== PERSONNAL PROJECTS ==================== -->
+      <section class="detail-section pg-skill">
+
+        <div class="detail-title">
+          <div class="title-icon">
+            <i class="fas fa-diagram-project"></i>
+          </div>
+
+          <span>Projets Personnels</span>
+        </div>
+
+        <div class="detail-content">
+
+          <ul class="pg-list">
+
+
+            <li>
+              <span>Language Web<br>(HTML/CSS/PHP)</br></span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 45%"
+                ></div>
+              </div>
+
+              <span class="skill-percent">45%</span>
+            </li>
+
+            <li>
+              <span>JavaScript</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 45%"
+                ></div>
+              </div>
+
+              <span class="skill-percent">45%</span>
+            </li>
+
+            <li>
+              <span>C#</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 50%"
+                ></div>
+              </div>
+
+              <span class="skill-percent">50%</span>
+            </li>
+            
+            <li>
+              <span>HaxeFlixel</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 75%"
+                ></div>
+              </div>
+
+              <span class="skill-percent">75%</span>
             </li>
             
 
