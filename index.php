@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Romé Ludovic - CV</title>
+
+  <!-- Google Fonts -->
+   <link href='https://fonts.googleapis.com/css?family=ADLaM Display' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main class="wrapper">
+
+    <!-- ==================== UPPER PART ==================== -->
+    <aside class="intro">
+
+      <!-- Profile -->
+      <div class="profile">
+        <div class="photo">
+          <img
+            src="images/profil.png"
+            alt="Photo de profil de Romé Ludovic"
+          >
+        </div>
+
+        <div class="bio">
+          <h1 class="name">Romé Ludovic</h1>
+          <p class="profession">Étudiant en BTS SIO au Lycée Fulbert, j'étudie C#, SQL, et Python</p>
+        </div>
+      </div>
+    
+      <!-- Contact -->
+      <section class="intro-section contact">
+        <h2 class="title">Me contacter</h2>
+
+        <div class="info-section">
+          <i class="fa fa-phone"></i>
+          <span>06 12 15 24 02</span>
+        </div>
+
+        <div class="info-section">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Mainvilliers, France</span>
+        </div>
+
+        <div class="info-section">
+          <i class="fas fa-paper-plane"></i>
+          <span>marie.vicco@gmail.com</span>
+      </section>
+
+      <!-- Reseau -->
+      <section class="intro-section Reseau">
+        <h2 class="title">Réseaux</h2>
+
+        <div class="info-section link">
+          <i class="fab fa-github"></i>
+
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Heckatt"
+          >
+            <span>Heckat</span>
+          </a>
+        </div>
+
+        <div class="info-section link">
+          <i class="fab fa-linkedin"></i>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/ludovic-rom%C3%A9-0361a0436/"
+          >
+            <span>Ludovic Romé</span>
+          </a>
+        </div>
+      </section>
+
+    </aside>
+    <div class="nav">
+    <nav>
+      <button><a href="index.php?page=education">education</a></button>
+      <button><a href="index.php?page=competences">Compétences</a></button>
+      <button><a href="index.php?page=projets-personnels">Projets Personnels</a></button>
+    </nav>
+    </div>
+
+    <section class="detail">
+<?php
+    if ($_GET["page"] == "competences") 
+    {echo '
+      <!-- ==================== PROGRAMMING SKILLS ==================== -->
+      <section class="detail-section pg-skill">
+
+        <div class="detail-title">
+          <div class="title-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+
+          <span>Programming Skills</span>
+        </div>
+
+        <div class="detail-content">
+
+          <ul class="pg-list">
+
+            <li>
+              <span>HTML5</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 30%"
+                ></div>
+              </div>
+
+              <span class="skill-percent">30%</span>
+            </li>
+
+            <li>
+              <span>Csharp</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 50%"
+                ></div>
+              </div>
+
+              <span class="skill-percent">50%</span>
+            </li>
+
+            <li>
+              <span>JavaScript</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 45%"
+                ></div>
+              </div>
+
+              <span class="skill-percent">45%</span>
+            </li>
+            
+
+          </ul>
+
+        </div>
+      </section>';
+    }
+    else
+    {echo '
+      <!--//==================== EDUCATION ==================== -->
+      <section class="detail-section edu">
+
+        <div class="detail-title">
+          <div class="title-icon">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+
+          <span>Education</span>
+        </div>
+
+          <div class="timeline-block">
+            <h3>Lycée Jehan de Beauce</h3>
+            <p>General Mathématique, Physique-Chimie</p>
+            <time>2022 - 2026</time>
+          </div>
+
+          <div class="timeline-block">
+            <h3>Lycée Fulbert</h3>
+            <p>BTS SIO</p>
+            <time>2026 - Présent</time>
+          </div>
+
+        </div>
+      </section>';
+    }
+    
+      ?>
+    </section>
+  </main>
+</body>
+</html>
