@@ -179,6 +179,65 @@
           </ul>
 
         </div>
+      </section>
+
+      <!-- ==================== LANGUAGE SKILLS ==================== -->
+      <section class="detail-section pg-skill">
+
+        <div class="detail-title">
+          <div class="title-icon">
+            <i class="fas fa-language"></i>
+          </div>
+
+          <span>Compétences linguistiques</span>
+        </div>
+
+        <div class="detail-content">
+
+          <ul class="pg-list">
+
+            <li>
+              <span>Français</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 100%"
+                ></div>
+              </div>
+
+              <span class="lang-level">C2</span>
+            </li>
+
+            <li>
+              <span>Anglais</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 83%"
+                ></div>
+              </div>
+
+              <span class="lang-level">C1</span>
+            </li>
+
+            <li>
+              <span>Espagnol</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 50%"
+                ></div>
+              </div>
+
+              <span class="lang-level">B1</span>
+            </li>
+
+          </ul>
+
+        </div>
       </section>';
     }
 
@@ -198,63 +257,49 @@
 
         <div class="detail-content">
 
-          <ul class="pg-list">
+          <!-- ===== PROJET 1 ===== -->
+          <article class="projet">
 
+            <div class="projet-texte">
+              <h3>Menu principal - Doubtful Regret</h3>
+              <p>Menu principal d\'une modification d\'un jeu se nommant Friday Night Funkin\' en HaxeFlixel, avec sélection de fichiers, navigation au clavier et lancement des chansons respectives.</p>
+            </div>
 
-            <li>
-              <span>Language Web<br>(HTML/CSS/PHP)</br></span>
+            <div class="projet-demo">
+              <pre class="projet-code"><code>' . htmlspecialchars(file_get_contents("codes-projets/menu-principal.hx")) . '</code></pre>
 
-              <div class="sb-skeleton">
-                <div
-                  class="skillbar"
-                  style="--pgbar-length: 45%"
-                ></div>
+              <div class="projet-fleche">
+                <i class="fas fa-arrow-right"></i>
               </div>
 
-              <span class="skill-percent">45%</span>
-            </li>
+              <div class="projet-image">
+                <img src="images/Code1resultat.png" alt="Résultat du projet 1">
+              </div>
+            </div>
 
-            <li>
-              <span>JavaScript</span>
+          </article>
 
-              <div class="sb-skeleton">
-                <div
-                  class="skillbar"
-                  style="--pgbar-length: 45%"
-                ></div>
+          <!-- ===== PROJET 2 ===== -->
+          <article class="projet">
+
+            <div class="projet-texte">
+              <h3>Menu Modifiers - Cool Pokémon Mod</h3>
+              <p>Menu pour modifier ce qui se passe dans le gameplay sur une modification d\'un jeu se nommant Friday Night Funkin\' en HaxeFlixel, permettant de personnaliser les éléments du jeu pour rendre l\'expérience plus simple ou plus dur.</p>
+            </div>
+
+            <div class="projet-demo">
+              <pre class="projet-code"><code>' . htmlspecialchars(file_get_contents("codes-projets/ModifiersSubState.hx")) . '</code></pre>
+
+              <div class="projet-fleche">
+                <i class="fas fa-arrow-right"></i>
               </div>
 
-              <span class="skill-percent">45%</span>
-            </li>
-
-            <li>
-              <span>C#</span>
-
-              <div class="sb-skeleton">
-                <div
-                  class="skillbar"
-                  style="--pgbar-length: 50%"
-                ></div>
+              <div class="projet-image">
+                <img src="images/Code2resultat.png" alt="Résultat du projet 2">
               </div>
+            </div>
 
-              <span class="skill-percent">50%</span>
-            </li>
-            
-            <li>
-              <span>HaxeFlixel</span>
-
-              <div class="sb-skeleton">
-                <div
-                  class="skillbar"
-                  style="--pgbar-length: 75%"
-                ></div>
-              </div>
-
-              <span class="skill-percent">75%</span>
-            </li>
-            
-
-          </ul>
+          </article>
 
         </div>
       </section>';

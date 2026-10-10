@@ -374,3 +374,131 @@ body {
   font-family: "ADLaM Display";
 
 }
+
+/*
+=========================================================
+   LANGUAGE LEVELS
+=========================================================
+*/
+
+.detail-section + .detail-section {
+  margin-top: 2.5rem;
+}
+
+.lang-level {
+  flex: 0 0 42px;
+
+  font-size: 0.85rem;
+  font-weight: 700;
+
+  text-align: right;
+
+  color: var(--profile-theme);
+}
+
+
+/*
+=========================================================
+   PERSONAL PROJECTS
+=========================================================
+*/
+
+.projet {
+  margin: 0 0 3rem;
+  padding-bottom: 2.5rem;
+
+  border-bottom: 1px solid var(--color-gray-light);
+}
+
+.projet:last-child {
+  border-bottom: none;
+}
+
+.projet-texte {
+  max-width: 700px;
+  margin: 0 auto 1.5rem;
+
+  line-height: 1.6;
+  text-align: center;
+}
+
+.projet-texte h3 {
+  margin: 0 0 0.75rem;
+
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.projet-texte p {
+  margin: 0;
+}
+
+.projet-demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.projet-code {
+  flex: 1 1 0;
+  min-width: 0;
+
+  max-height: 360px;
+  margin: 0;
+  padding: 1rem;
+
+  overflow: auto;
+
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+
+  border-radius: 8px;
+
+  font-family: "Consolas", "Courier New", monospace;
+  font-size: 0.7rem;
+  line-height: 1.5;
+
+  user-select: text;
+}
+
+.projet-fleche {
+  flex: 0 0 auto;
+
+  font-size: 2.5rem;
+
+  color: var(--profile-theme);
+}
+
+.projet-image {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.projet-image img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  border-radius: 8px;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 800px) {
+  .projet-demo {
+    flex-direction: column;
+  }
+
+  .projet-fleche {
+    transform: rotate(90deg);
+  }
+
+  .projet-code,
+  .projet-image {
+    width: 100%;
+    flex: none;
+  }
+}
