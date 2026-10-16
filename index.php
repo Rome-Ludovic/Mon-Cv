@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
-<link rel="icon" type="image/png" href="images/icon.png">
 <head>
+  <link rel="icon" type="image/png" href="images/icon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
@@ -55,7 +55,7 @@
 
         <div class="info-section">
           <i class="fa fa-phone"></i>
-          <span>06 12 15 24 02</span>
+          <span><a href="tel: +33612152402">06 12 15 24 02</a></span>
         </div>
 
         <div class="info-section">
@@ -65,7 +65,7 @@
 
         <div class="info-section">
           <i class="fas fa-paper-plane"></i>
-          <span>marie.vicco@gmail.com</span>
+          <span><a href="mailto:marie.vicco@gmail.com">marie.vicco@gmail.com</a></span>
       </section>
 
       <!-- Reseau -->
@@ -99,9 +99,9 @@
     </aside>
     <div class="nav">
     <nav>
-      <button><a href="index.php?page=education">Éducation</a></button>
-      <button><a href="index.php?page=competences">Compétences</a></button>
-      <button><a href="index.php?page=projets-personnels">Projets Personnels</a></button>
+      <a class="button" href="index.php?page=education">Éducation</a>
+      <a class="button" href="index.php?page=competences">Compétences</a>
+      <a class="button" href="index.php?page=projets-personnels">Projets Personnels</a>
     </nav>
     </div>
 

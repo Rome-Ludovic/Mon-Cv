@@ -17,7 +17,6 @@
   --pgbar-length: 100%;
 
   --circle-radius: 45;
-  --circle-circumference: 282.74px;
 }
 
 
@@ -501,4 +500,14 @@ body {
     width: 100%;
     flex: none;
   }
+}
+
+.button {
+  font-size: 20px;
+  font-weight: 700;
+  border: solid;
+  color: #000000;
+  border-radius: 10%;
+  text-decoration: none;
+  padding: 25px;
 }
