@@ -165,6 +165,19 @@
             </li>
             
             <li>
+              <span>SQL<br>(Base de données)</span>
+
+              <div class="sb-skeleton">
+                <div
+                  class="skillbar"
+                  style="--pgbar-length: 80%"
+                ></div>
+              </div>
+
+              <span class="skill-percent">80%</span>
+            </li>
+
+            <li>
               <span>HaxeFlixel</span>
 
               <div class="sb-skeleton">
